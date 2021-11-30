@@ -11,11 +11,11 @@ import "./NavbarStyles.css";
 const Navbar = () => {
   return (
     <>
-      <header>
+      <header className="header">
         <nav className="navbar">
           <div className="logo">
             <Link to="/">
-              <img src={Logo} alt="logo" />
+              <img className="nav-img" src={Logo} alt="logo" />
             </Link>
           </div>
           <ul className="nav-menu">
