@@ -20,4 +20,24 @@
   height: 70vh;
   display: flex;
   flex-direction: column;
+  justify-self: center;
+}
+
+.hero .col-1 h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero .col-1 p {
+  font-size: 1rem;
+  color: rgb(70, 70, 70);
+  line-height: 1.4;
+  margin-top: 1.2rem;
+}
+
+.hero .used-by p {
+  color: rgb(190, 190, 190);
+  font-size: 14px;
+  margin: 2rem 0 1rem 0;
 }
