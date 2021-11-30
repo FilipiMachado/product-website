@@ -128,10 +128,10 @@ form input {
   font-weight: 500;
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .hero {
-    width: 100%;
     height: auto;
+    width: 100%;
   }
 
   .hero .container {
@@ -150,5 +150,9 @@ form input {
 
   .hero h1 {
     font-size: 32px;
+  }
+
+  .hero .col-2 {
+    display: none;
   }
 }
