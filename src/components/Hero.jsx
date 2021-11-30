@@ -75,8 +75,10 @@ const Hero = () => {
                 </div>
                 <div className="form-footer">
                   <p>
-                    By signing up, you agree to our
-                    <span className="primary-color">Terms, Data Policy</span>
+                    By signing up, you agree to our{" "}
+                    <span className="primary-color">Terms, Data Policy</span>{" "}
+                    and
+                    <span className="primary-color"> Cookies Policy</span>.
                   </p>
                 </div>
               </div>
