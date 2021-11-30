@@ -4,7 +4,7 @@ import {
   FaDatabase,
   FaAsterisk,
   FaAccusoft,
-  FaFaceBook,
+  FaFacebook,
   FaTwitter,
   FaGithub,
 } from "react-icons/fa";
@@ -51,8 +51,16 @@ const Hero = () => {
                     <div className="form-container">
                         <p className="sign-in-text">Sign in with</p>
                         <div>
-                            <i><FaFaceBook size={20}/></i>
+                            <i><FaFacebook size={20}/></i>
+                            <i><FaTwitter size={20}/></i>
+                            <i><FaGithub size={20}/></i>
                         </div>
+                        <div>
+                            <p><span>Or</span></p>
+                        </div>
+                        <form action="">
+                            <input type="text" placeholder="Name"/>
+                        </form>
                     </div>
                 </div>
             </div>
