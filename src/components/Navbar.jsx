@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 // React Router
 import { Link } from "react-router-dom";
 // Logo
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.jpg";
 // Icons
 import { FaBars, FaTimes } from "react-icons/fa";
 // Styles
 import "./NavbarStyles.css";
 
 const Navbar = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
+
   return (
     <>
       <header className="header">
@@ -18,7 +24,7 @@ const Navbar = () => {
               <img className="nav-img" src={Logo} alt="logo" />
             </Link>
           </div>
-          <ul className="nav-menu">
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
@@ -40,8 +46,18 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <div className="hamburger">
-            <FaBars style={{color: "ffffff"}} />
+          <div className="hamburger" onClick={handleClick}>
+            {click ? (
+              <FaTimes
+                size={20}
+                style={{ color: "#ffffff", cursor: "pointer" }}
+              />
+            ) : (
+              <FaBars
+                size={30}
+                style={{ color: "#ffffff", cursor: "pointer" }}
+              />
+            )}
           </div>
         </nav>
       </header>
