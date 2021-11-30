@@ -15,6 +15,8 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* Right Column */
+
 .hero .col-1 {
   padding: 1rem 1rem 1rem 0;
   height: 70vh;
@@ -50,6 +52,8 @@
   color: rgb(70, 70, 70);
   padding-right: 1rem;
 }
+
+/* Left Column */
 
 .hero .col-2 {
   padding: 1rem;
@@ -122,4 +126,29 @@ form input {
 
 .form-footer span {
   font-weight: 500;
+}
+
+@media screen and (max-width: 768) {
+  .hero {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero .container {
+    padding: 0 1rem;
+  }
+
+  .hero .content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero .col-1 {
+    height: 90vh;
+    padding: 0.2rem;
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
 }
