@@ -8,9 +8,11 @@ import "./NavbarStyles.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <>
+      <header>
+        <h1>Navbar</h1>
+      </header>
+    </>
   );
 };
 
