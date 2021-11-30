@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // React Router
 import { Link } from "react-router-dom";
 // Logo
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/logo.png";
 // Icons
 import { FaBars, FaTimes } from "react-icons/fa";
 // Styles

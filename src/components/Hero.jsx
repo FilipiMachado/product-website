@@ -70,7 +70,7 @@ const Hero = () => {
                     <input type="text" placeholder="Name" />
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Password" />
-                    <button>Create your account</button>
+                    <button className="form-btn">Create your account</button>
                   </form>
                 </div>
                 <div className="form-footer">
