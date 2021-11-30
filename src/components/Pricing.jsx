@@ -27,6 +27,46 @@ const Pricing = () => {
                 <span>Everything you need</span>
               </p>
               <h3>All-in-one platform</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus dolore, similique, laboriosam quis sint delectus cum
+                nesciunt, non maxime officiis optio explicabo? Animi cum modi
+                iure. Eligendi magni atque ea.
+              </p>
+            </div>
+            <div className="card">
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div className="card">
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
             </div>
           </div>
         </div>
