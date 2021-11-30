@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="hamburger">
-            <FaBars />
+            <FaBars style={{color: "ffffff"}} />
           </div>
         </nav>
       </header>
