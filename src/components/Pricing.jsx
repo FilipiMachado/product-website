@@ -18,7 +18,7 @@ const Pricing = () => {
               </p>
             </div>
             <div className="btn-div">
-              <button>Get started today</button>
+              <button className="pricing-btn">Get started today</button>
             </div>
           </div>
           <div className="bottom-content">

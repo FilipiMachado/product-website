@@ -50,5 +50,24 @@
 }
 
 .pricing .card .no-border {
-    border: none;
+  border: none;
+}
+
+.pricing-btn {
+  border: none;
+  background-color: #6948ff;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pricing-btn:hover {
+  background-color: #542ffd;
+}
+
+.pricing .card span {
+    color: #6948ff;
+    text-transform: uppercase;
 }
