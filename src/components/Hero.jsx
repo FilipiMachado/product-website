@@ -50,7 +50,7 @@ const Hero = () => {
               <div className="form-layout">
                 <div className="form-container">
                   <p className="sign-in-text">Sign in with</p>
-                  <div>
+                  <div className="social-login">
                     <i>
                       <FaFacebook size={20} />
                     </i>
@@ -61,7 +61,7 @@ const Hero = () => {
                       <FaGithub size={20} />
                     </i>
                   </div>
-                  <div>
+                  <div className="divider">
                     <p>
                       <span>Or</span>
                     </p>
